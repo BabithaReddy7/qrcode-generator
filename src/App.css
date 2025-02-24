@@ -36,3 +36,66 @@
     transform: rotate(360deg);
   }
 }
+/* src/App.css */
+
+.App {
+  text-align: center;
+  margin: 20px;
+}
+
+input {
+  padding: 10px;
+  width: 300px;
+  margin-right: 10px;
+}
+
+button {
+  padding: 10px;
+}
+
+h2 {
+  margin-top: 20px;
+}
+/* src/App.css */
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-image: url('https://img.freepik.com/free-vector/minimalist-background-gradient-colorful-style_698780-835.jpg?t=st=1740391357~exp=1740394957~hmac=7ed260f05d30ddc6882ec6170de4b43493ab813418860581d624533d0b911eb3&w=1800'); /* Path to your background image */
+  background-size: cover; /* Cover the entire background */
+  background-position: center; /* Center the background image */
+  color: white; /* Change text color to white for better contrast */
+}
+
+.App {
+  text-align: center;
+  margin: 20px;
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background for better readability */
+  padding: 20px;
+  border-radius: 10px; /* Rounded corners */
+}
+
+input {
+  padding: 10px;
+  width: 300px;
+  margin-right: 10px;
+  border: none; /* Remove default border */
+  border-radius: 5px; /* Rounded corners */
+}
+
+button {
+  padding: 10px;
+  border: none; /* Remove default border */
+  border-radius: 5px; /* Rounded corners */
+  background-color: #007bff; /* Bootstrap primary color */
+  color: white; /* White text */
+  cursor: pointer; /* Pointer cursor on hover */
+}
+
+button:hover {
+  background-color: #0056b3; /* Darker shade on hover */
+}
+
+h2 {
+  margin-top: 20px;
+}
